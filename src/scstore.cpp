@@ -1,4 +1,4 @@
-#include "scstore.h"
+#include "include/scstore.h"
 
 #include <QDebug>
 #include <QDir>

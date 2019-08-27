@@ -1,4 +1,4 @@
-#include "scunaryoperator.h"
+#include "include/scunaryoperator.h"
 
 SCUnaryOperator::SCUnaryOperator(const QString &tk, const SCTokenTypes::TokenType &tt, const QString &rep,
                                  const SCTokenTypes::OperatorPrecedence &prec, const SCTokenTypes::OperatorAssociativity &assoc,

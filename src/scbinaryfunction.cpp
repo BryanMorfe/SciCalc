@@ -1,4 +1,4 @@
-#include "scbinaryfunction.h"
+#include "include/scbinaryfunction.h"
 
 SCBinaryFunction::SCBinaryFunction(const QString &tk, const SCTokenTypes::TokenType &tt, const QString &rep, std::function<double(double, double)> &&eval):
     SCTokenRepresentable (tk, tt, rep),

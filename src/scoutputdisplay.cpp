@@ -1,6 +1,6 @@
-#include "scoutputdisplay.h"
-#include "sctokenrepresentable.h"
-#include "sctokenoperations.h"
+#include "include/scoutputdisplay.h"
+#include "include/sctokenrepresentable.h"
+#include "include/sctokenoperations.h"
 
 SCOutputDisplay::SCOutputDisplay(): outputLabel(nullptr), messageLabel(nullptr) {}
 

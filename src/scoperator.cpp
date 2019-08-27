@@ -1,4 +1,4 @@
-#include "scoperator.h"
+#include "include/scoperator.h"
 
 SCOperator::SCOperator(const QString &tk, const SCTokenTypes::TokenType &tt, const QString &rep,
                        const SCTokenTypes::OperatorPrecedence &prec, const SCTokenTypes::OperatorAssociativity &assoc):

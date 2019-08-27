@@ -1,9 +1,9 @@
-#include "scexpressionparser.h"
+#include "include/scexpressionparser.h"
 
 #include <QStack>
 #include <QDebug>
 
-#include "sctokenoperations.h"
+#include "include/sctokenoperations.h"
 
 const SCExpressionParser SCExpressionParser::shared;
 

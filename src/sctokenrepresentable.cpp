@@ -1,4 +1,4 @@
-#include "sctokenrepresentable.h"
+#include "include/sctokenrepresentable.h"
 
 SCTokenRepresentable::SCTokenRepresentable() {}
 

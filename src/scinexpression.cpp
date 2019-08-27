@@ -1,5 +1,5 @@
-#include "scinexpression.h"
-#include "sctokenoperations.h"
+#include "include/scinexpression.h"
+#include "include/sctokenoperations.h"
 
 #include <QDebug>
 

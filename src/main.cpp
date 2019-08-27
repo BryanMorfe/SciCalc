@@ -1,4 +1,4 @@
-#include "scwindow.h"
+#include "include/scwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

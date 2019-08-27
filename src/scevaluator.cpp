@@ -1,13 +1,13 @@
-#include "scevaluator.h"
+#include "include/scevaluator.h"
 #include <cmath>
 #include <QStack>
 
-#include "scoperand.h"
-#include "scbinaryoperator.h"
-#include "scunaryoperator.h"
-#include "scunaryfunction.h"
-#include "scbinaryfunction.h"
-#include "sctokenoperations.h"
+#include "include/scoperand.h"
+#include "include/scbinaryoperator.h"
+#include "include/scunaryoperator.h"
+#include "include/scunaryfunction.h"
+#include "include/scbinaryfunction.h"
+#include "include/sctokenoperations.h"
 
 const SCEvaluator SCEvaluator::shared;
 

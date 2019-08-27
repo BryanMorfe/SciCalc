@@ -1,5 +1,5 @@
-#include "scparsedexpression.h"
-#include "sctokenoperations.h"
+#include "include/scparsedexpression.h"
+#include "include/sctokenoperations.h"
 
 SCParsedExpression::SCParsedExpression() {}
 

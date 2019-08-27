@@ -1,4 +1,4 @@
-#include "sctoken.h"
+#include "include/sctoken.h"
 
 SCToken::SCToken() {}
 

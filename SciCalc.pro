@@ -25,48 +25,48 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        scbinaryfunction.cpp \
-        scbinaryoperator.cpp \
-        scevaluator.cpp \
-        scexpression.cpp \
-        scexpressionparser.cpp \
-        scexpressionvalidator.cpp \
-        scfunction.cpp \
-        scinexpression.cpp \
-        scoperand.cpp \
-        scoperator.cpp \
-        scoutputdisplay.cpp \
-        scparsedexpression.cpp \
-        scstore.cpp \
-        sctoken.cpp \
-        sctokenoperations.cpp \
-        sctokenrepresentable.cpp \
-        scunaryfunction.cpp \
-        scunaryoperator.cpp \
-        scwindow.cpp
+        src/main.cpp \
+        src/scbinaryfunction.cpp \
+        src/scbinaryoperator.cpp \
+        src/scevaluator.cpp \
+        src/scexpression.cpp \
+        src/scexpressionparser.cpp \
+        src/scexpressionvalidator.cpp \
+        src/scfunction.cpp \
+        src/scinexpression.cpp \
+        src/scoperand.cpp \
+        src/scoperator.cpp \
+        src/scoutputdisplay.cpp \
+        src/scparsedexpression.cpp \
+        src/scstore.cpp \
+        src/sctoken.cpp \
+        src/sctokenoperations.cpp \
+        src/sctokenrepresentable.cpp \
+        src/scunaryfunction.cpp \
+        src/scunaryoperator.cpp \
+        src/scwindow.cpp
 
 HEADERS += \
-        scbinaryfunction.h \
-        scbinaryoperator.h \
-        scevaluator.h \
-        scexpression.h \
-        scexpressionparser.h \
-        scexpressionvalidator.h \
-        scfunction.h \
-        scinexpression.h \
-        scoperand.h \
-        scoperator.h \
-        scoutputdisplay.h \
-        scparsedexpression.h \
-        scstore.h \
-        sctoken.h \
-        sctokenoperations.h \
-        sctokenrepresentable.h \
-        sctokentypes.h \
-        scunaryfunction.h \
-        scunaryoperator.h \
-        scwindow.h
+        include/scbinaryfunction.h \
+        include/scbinaryoperator.h \
+        include/scevaluator.h \
+        include/scexpression.h \
+        include/scexpressionparser.h \
+        include/scexpressionvalidator.h \
+        include/scfunction.h \
+        include/scinexpression.h \
+        include/scoperand.h \
+        include/scoperator.h \
+        include/scoutputdisplay.h \
+        include/scparsedexpression.h \
+        include/scstore.h \
+        include/sctoken.h \
+        include/sctokenoperations.h \
+        include/sctokenrepresentable.h \
+        include/sctokentypes.h \
+        include/scunaryfunction.h \
+        include/scunaryoperator.h \
+        include/scwindow.h
 
 FORMS += \
     scwindow.ui

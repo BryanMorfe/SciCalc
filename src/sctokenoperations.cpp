@@ -1,4 +1,4 @@
-#include "sctokenoperations.h"
+#include "include/sctokenoperations.h"
 #include <QRegularExpression>
 
 TokenType SCTokenOperations::tokenType(const QChar &ch)

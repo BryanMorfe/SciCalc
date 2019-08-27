@@ -1,10 +1,10 @@
-#include "scwindow.h"
+#include "include/scwindow.h"
 #include "ui_scwindow.h"
 #include <QDebug>
 
-#include "scexpressionvalidator.h"
-#include "scevaluator.h"
-#include "scexpressionparser.h"
+#include "include/scexpressionvalidator.h"
+#include "include/scevaluator.h"
+#include "include/scexpressionparser.h"
 
 SCWindow::SCWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -409,7 +409,5 @@ void SCWindow::keyPressEvent(QKeyEvent *event)
     }
     else
         QWidget::keyPressEvent(event);
-
-
 
 }
