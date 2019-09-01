@@ -371,8 +371,6 @@ void SCWindow::keyPressEvent(QKeyEvent *event)
 {
     QChar key = event->text().front();
 
-    qDebug() << key;
-
     if (event->key() == Qt::Key_Backspace || event->key() == Qt::Key_Delete)
     {
         mainInExpression.delLastToken();
@@ -400,8 +398,9 @@ void SCWindow::keyPressEvent(QKeyEvent *event)
         else
             outputDisplay.output("Invalid expression.");
     }
-    else if (key != '\0')
+    else if (key != '\x0')
     {
+        qDebug() << "Adding partial token:" << key;
         if (mainInExpression.addPartialToken(key))
             outputDisplay.output(mainInExpression);
         else
