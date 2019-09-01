@@ -11,6 +11,7 @@ Scientific Calculator written in C++ and Qt that allows users to write full math
 * User-defined functions are still unavailable.
 * Code needs to be properly documented.
 * Fully automated unit tests are to be written.
+* Consider using the C++ standard library for operations instead of Qt library.
 
 ## Known Bugs
 * Adding a token with the keyboard may result in an incorrect expression being displayed.
