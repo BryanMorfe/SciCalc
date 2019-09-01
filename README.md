@@ -9,6 +9,8 @@ Scientific Calculator written in C++ and Qt that allows users to write full math
 * Expression validator is not yet coded.
 * Default functions are still unavailable. Must be enabled by correct parsing and evaluation.
 * User-defined functions are still unavailable.
+* Code needs to be properly documented.
+* Fully automated unit tests are to be written.
 
 ## Known Bugs
 * Adding a token with the keyboard may result in an incorrect expression being displayed.
